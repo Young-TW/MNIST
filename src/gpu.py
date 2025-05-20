@@ -1,5 +1,6 @@
 import torch
 
+
 def detect_gpu():
     if torch.cuda.is_available():
         device = torch.device("cuda")
